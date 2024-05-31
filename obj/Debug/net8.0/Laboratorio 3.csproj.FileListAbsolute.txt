@@ -1,0 +1,173 @@
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\appsettings.Development.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\appsettings.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Laboratorio 3.exe
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Laboratorio 3.deps.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Laboratorio 3.runtimeconfig.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Laboratorio 3.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Laboratorio 3.pdb
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\Laboratorio 3.csproj.AssemblyReference.cache
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\Laboratorio 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\Laboratorio 3.AssemblyInfoInputs.cache
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\Laboratorio 3.AssemblyInfo.cs
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\Laboratorio 3.csproj.CoreCompileInputs.cache
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\Laboratorio 3.MvcApplicationPartsAssemblyInfo.cs
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\Laboratorio 3.MvcApplicationPartsAssemblyInfo.cache
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\staticwebassets.build.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\staticwebassets.development.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\staticwebassets\msbuild.Laboratorio 3.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\staticwebassets\msbuild.build.Laboratorio 3.props
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Laboratorio 3.props
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Laboratorio 3.props
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\scopedcss\bundle\Laboratorio 3.styles.css
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\Laborato.4CB84129.Up2Date
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\Laboratorio 3.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\refint\Laboratorio 3.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\Laboratorio 3.pdb
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\Laboratorio 3.genruntimeconfig.cache
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\obj\Debug\net8.0\ref\Laboratorio 3.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Azure.Core.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Azure.Identity.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\MySqlConnector.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\System.Memory.Data.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\Google.Protobuf.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\MySql.Data.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\ZstdSharp.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio 3\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\appsettings.Development.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\appsettings.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Laboratorio 3.exe
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Laboratorio 3.deps.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Laboratorio 3.runtimeconfig.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Laboratorio 3.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Laboratorio 3.pdb
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Azure.Core.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Azure.Identity.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Google.Protobuf.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\MySql.Data.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\MySqlConnector.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\System.Memory.Data.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\ZstdSharp.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laboratorio 3.csproj.AssemblyReference.cache
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laboratorio 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laboratorio 3.AssemblyInfoInputs.cache
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laboratorio 3.AssemblyInfo.cs
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laboratorio 3.csproj.CoreCompileInputs.cache
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laboratorio 3.MvcApplicationPartsAssemblyInfo.cs
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laboratorio 3.MvcApplicationPartsAssemblyInfo.cache
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\staticwebassets.build.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\staticwebassets.development.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\staticwebassets\msbuild.Laboratorio 3.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\staticwebassets\msbuild.build.Laboratorio 3.props
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Laboratorio 3.props
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Laboratorio 3.props
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\scopedcss\bundle\Laboratorio 3.styles.css
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laborato.4CB84129.Up2Date
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laboratorio 3.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\refint\Laboratorio 3.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laboratorio 3.pdb
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laboratorio 3.genruntimeconfig.cache
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\ref\Laboratorio 3.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Laboratorio 3.staticwebassets.runtime.json
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\MailKit.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\MimeKit.dll
