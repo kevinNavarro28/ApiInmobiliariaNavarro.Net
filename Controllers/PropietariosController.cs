@@ -71,7 +71,6 @@ namespace Laboratorio_3.Controllers
 					{
 						new Claim(ClaimTypes.Name, p.Email),
 						new Claim("FullName", p.Nombre + " " + p.Apellido),
-						new Claim(ClaimTypes.Role, "Administrador"),
                         new Claim("Password", p.Clave)
 
 					};
@@ -142,61 +141,94 @@ namespace Laboratorio_3.Controllers
 			}
 
 		}
+    
 
-
-	[HttpPost("email")]
-    [AllowAnonymous]
-    public async Task<IActionResult> GetByEmail([FromForm] Propietario model)
+    [HttpPost("email")]
+[AllowAnonymous]
+public async Task<IActionResult> GetByEmail([FromForm] Propietario model)
+{
+    try
     {
-        try
+        var entidad = await contexto.Propietarios.FirstOrDefaultAsync(x => x.Email == model.Email);
+        if (entidad == null)
         {
-            var entidad = await contexto.Propietarios.FirstOrDefaultAsync(x => x.Email == model.Email);
-            if (entidad == null)
-            {
-                return NotFound("No se encontró un propietario con ese email.");
-            }
-
-            var token = Guid.NewGuid().ToString();
-            var resetLink = GenerarUrlCompleta("Token", "Propietarios", token,model.Email);
-
-            await SendResetPasswordEmail(entidad.Email, resetLink);
-
-            return Ok("Se ha enviado un enlace para restablecer la contraseña a su correo electrónico.");
+            return NotFound("No se encontró un propietario con ese email.");
         }
-        catch (Exception ex)
+
+        // Generate JWT token
+        var key = new SymmetricSecurityKey(System.Text.Encoding.ASCII.GetBytes(config["TokenAuthentication:SecretKey"]));
+        var credenciales = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+        var claims = new List<Claim>
         {
-            return BadRequest(ex.Message);
-        }
+            new Claim(ClaimTypes.Name, entidad.Email),
+            new Claim("FullName", entidad.Nombre + " " + entidad.Apellido),
+            new Claim("Password", entidad.Clave)
+        };
+
+        var token = new JwtSecurityToken(
+            issuer: config["TokenAuthentication:Issuer"],
+            audience: config["TokenAuthentication:Audience"],
+            claims: claims,
+            expires: DateTime.Now.AddMinutes(5),
+            signingCredentials: credenciales
+        );
+
+        var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
+
+        // Generate reset link
+        var resetLink = GenerarUrlCompleta("Token", "Propietarios", tokenString, model.Email);
+
+        await ReseteoClave(entidad.Email, resetLink);
+
+        return Ok("Se ha enviado un enlace para restablecer la contraseña a su correo electrónico.");
     }
-
-    [HttpGet("token")]
-    [AllowAnonymous]
-    public async Task<IActionResult> Token([FromQuery] string token, [FromQuery] string email)
+    catch (Exception ex)
     {
-        try
-        {
-            var propietario = await contexto.Propietarios.FirstOrDefaultAsync(x => x.Email == email);
-            if (propietario == null)
-            {
-                return NotFound("Propietario no encontrado.");
-            }
-
-            Random rand = new Random(Environment.TickCount);
-            string randomChars = "ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz0123456789";
-            string nuevaClave = new string(Enumerable.Repeat(randomChars, 8).Select(s => s[rand.Next(s.Length)]).ToArray());
-
-            propietario.Clave = HashPassword(nuevaClave);
-            await contexto.SaveChangesAsync();
-
-            await SendNewPasswordEmail(propietario.Email, nuevaClave);
-
-            return Ok("Se ha generado una nueva contraseña y se ha enviado a su correo electrónico.");
-        }
-        catch (Exception ex)
-        {
-            return BadRequest(ex.Message);
-        }
+        return BadRequest(ex.Message);
     }
+}
+
+
+[HttpGet("token")]
+[AllowAnonymous]
+public async Task<IActionResult> Token([FromQuery] string access_token, [FromQuery] string email)
+{
+    try
+    {
+        var handler = new JwtSecurityTokenHandler();
+        var jwtToken = handler.ReadJwtToken(access_token);
+
+        var propietarioEmail = jwtToken.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+        if (propietarioEmail == null || propietarioEmail != email)
+        {
+            return BadRequest("Token inválido o email no coincide.");
+        }
+
+        var propietario = await contexto.Propietarios.FirstOrDefaultAsync(x => x.Email == email);
+        if (propietario == null)
+        {
+            return NotFound("Propietario no encontrado.");
+        }
+
+        // Generate new password
+        Random rand = new Random(Environment.TickCount);
+        string randomChars = "ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz0123456789";
+        string nuevaClave = new string(Enumerable.Repeat(randomChars, 8).Select(s => s[rand.Next(s.Length)]).ToArray());
+
+        propietario.Clave = HashPassword(nuevaClave);
+        await contexto.SaveChangesAsync();
+
+        await MandarClaveNueva(propietario.Email, nuevaClave);
+
+        return Ok("Se ha generado una nueva contraseña y se ha enviado a su correo electrónico.");
+    }
+    catch (Exception ex)
+    {
+        return BadRequest(ex.Message);
+    }
+}
+
+
 
     private string HashPassword(string password)
     {
@@ -209,7 +241,7 @@ namespace Laboratorio_3.Controllers
         return hashed;
     }
 
-    private async Task SendResetPasswordEmail(string email, string resetLink)
+    private async Task ReseteoClave(string email, string resetLink)
     {
         var message = new MailMessage();
         message.From = new MailAddress("from@example.com");
@@ -226,7 +258,7 @@ namespace Laboratorio_3.Controllers
         await client.SendMailAsync(message);
     }
 
-    private async Task SendNewPasswordEmail(string email, string newPassword)
+    private async Task MandarClaveNueva(string email, string newPassword)
     {
         var message = new MailMessage();
         message.From = new MailAddress("from@example.com");
@@ -243,50 +275,16 @@ namespace Laboratorio_3.Controllers
         await client.SendMailAsync(message);
     }
 
-    private string GenerarUrlCompleta(string action, string controller, string token, string email)
+    private string GenerarUrlCompleta(string action, string controller, string tokenString, string email)
     {
         var dominio = environment.IsDevelopment() ? "192.168.1.3:5000" : "www.misitio.com";
-        var url = $"{Request.Scheme}://{dominio}/{controller}/{action}?token={token}&email={HttpUtility.UrlEncode(email)}";
+        var url = $"{Request.Scheme}://{dominio}/{controller}/{action}?access_token={tokenString}&email={HttpUtility.UrlEncode(email)}";
         return url;
     }
 
     
 
-/*public async Task<IActionResult> CambiarClave([FromBody] PropietarioCambiarPassword model)
-{
-    if (!ModelState.IsValid)
-    {
-        return BadRequest(ModelState);
-    }
 
-    var email = User.Identity.Name;
-    var propietario = await contexto.Propietarios.FirstOrDefaultAsync(x => x.Email == email);
-
-    if (propietario == null)
-    {
-        return NotFound("Propietario no encontrado.");
-    }
-
-    // Verificar que la clave vieja es correcta
-    string hashedVieja = HashPassword(model.ClaveVieja);
-
-    if (propietario.Clave != hashedVieja)
-    {
-        return BadRequest("La clave vieja es incorrecta.");
-    }
-
-    // Verificar que las nuevas claves coinciden
-    if (model.ClaveNueva != model.ClaveNuevaRepetir)
-    {
-        return BadRequest("Las nuevas claves no coinciden.");
-    }
-
-    // Actualizar la clave en la base de datos
-    propietario.Clave = HashPassword(model.ClaveNueva);
-    await contexto.SaveChangesAsync();
-
-    return Ok("La clave ha sido cambiada exitosamente.");
-}*/
 
 [HttpPut("cambiarClave")]
 public async Task<IActionResult> CambiarClave([FromBody] CambiarClaveViewModel model)
@@ -312,6 +310,9 @@ public async Task<IActionResult> CambiarClave([FromBody] CambiarClaveViewModel m
         return BadRequest("Error al cambiar la clave: " + ex.Message);
     }
 }
+
+    
+
 
 
 }

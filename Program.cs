@@ -50,7 +50,7 @@ builder.Services.AddAuthentication()
 				var path = context.HttpContext.Request.Path;
 				if (!string.IsNullOrEmpty(accessToken) &&
 					(path.StartsWithSegments("/chatsegurohub") ||
-					path.StartsWithSegments("/Controllers/Propietarios/token")))
+					path.StartsWithSegments("/Propietarios/token")))
 				{//reemplazar las urls por las necesarias ruta ⬆
 					context.Token = accessToken;
 				}

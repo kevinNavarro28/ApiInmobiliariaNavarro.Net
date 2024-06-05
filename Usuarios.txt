@@ -5,7 +5,7 @@ Martin@mail.com
 pass : rnSCuSc8
 
 Jose@mail.com
-pass : 4321
+pass : VDwZwp2j
 
 Marcelo@mail.com
 pass: udkxXmwk

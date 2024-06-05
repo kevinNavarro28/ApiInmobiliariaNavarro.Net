@@ -171,3 +171,4 @@ D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\ref\Laboratorio 3
 D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\Laboratorio 3.staticwebassets.runtime.json
 D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\MailKit.dll
 D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\bin\Debug\net8.0\MimeKit.dll
+D:\ulp\ULP\2024 1er Cutrimestre\Laboratorio_3\obj\Debug\net8.0\Laboratorio 3.sourcelink.json
