@@ -192,22 +192,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\d44d90cf-83d8-4920-8a74-70c46d0fd05c_casa1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\d5e7c995-ca06-4727-a8b6-dc79c1c8ef4a_IMG-20240605-WA0005.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>Laboratorio 3</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Laboratorio 3</BasePath>
-      <RelativePath>Uploads/d5e7c995-ca06-4727-a8b6-dc79c1c8ef4a_IMG-20240605-WA0005.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\d5e7c995-ca06-4727-a8b6-dc79c1c8ef4a_IMG-20240605-WA0005.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\f98e1b4a-edee-48bf-977c-6e414d8e17d9_departamento-piloto.png))">
       <SourceType>Package</SourceType>
       <SourceId>Laboratorio 3</SourceId>

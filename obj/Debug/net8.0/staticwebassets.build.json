@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+md04KHofw6q8587qN5kXEh65R664TXyeE9Qn+YTenk=",
+  "Hash": "EzUZg0Sq5+vjdM3e7Pb4yE16vQuEf45wKgulNvxSCF0=",
   "Source": "Laboratorio 3",
   "BasePath": "_content/Laboratorio 3",
   "Mode": "Default",
@@ -243,25 +243,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\d44d90cf-83d8-4920-8a74-70c46d0fd05c_casa1.jpg"
-    },
-    {
-      "Identity": "D:\\ulp\\ULP\\2024 1er Cutrimestre\\Laboratorio_3\\wwwroot\\Uploads\\d5e7c995-ca06-4727-a8b6-dc79c1c8ef4a_IMG-20240605-WA0005.jpg",
-      "SourceId": "Laboratorio 3",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\ulp\\ULP\\2024 1er Cutrimestre\\Laboratorio_3\\wwwroot\\",
-      "BasePath": "_content/Laboratorio 3",
-      "RelativePath": "Uploads/d5e7c995-ca06-4727-a8b6-dc79c1c8ef4a_IMG-20240605-WA0005.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\d5e7c995-ca06-4727-a8b6-dc79c1c8ef4a_IMG-20240605-WA0005.jpg"
     },
     {
       "Identity": "D:\\ulp\\ULP\\2024 1er Cutrimestre\\Laboratorio_3\\wwwroot\\Uploads\\f98e1b4a-edee-48bf-977c-6e414d8e17d9_departamento-piloto.png",

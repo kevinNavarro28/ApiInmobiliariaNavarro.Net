@@ -117,7 +117,8 @@ namespace Laboratorio_3.Controllers
 			try{
 				if(ModelState.IsValid){
 				
-					var propietario = await contexto.Propietarios.AsNoTracking().FirstOrDefaultAsync(x=> x.Email == entidad.Email);
+					var email = User.Identity.Name;
+                    var propietario = await contexto.Propietarios.FirstOrDefaultAsync(x => x.Email == email);
 					propietario.Dni = entidad.Dni;
 					propietario.Apellido = entidad.Apellido;
 					propietario.Nombre = entidad.Nombre;
@@ -144,7 +145,7 @@ namespace Laboratorio_3.Controllers
     
 
     [HttpPost("email")]
-[AllowAnonymous]
+    [AllowAnonymous]
 public async Task<IActionResult> GetByEmail([FromForm] Propietario model)
 {
     try
@@ -190,20 +191,12 @@ public async Task<IActionResult> GetByEmail([FromForm] Propietario model)
 
 
 [HttpGet("token")]
-[AllowAnonymous]
-public async Task<IActionResult> Token([FromQuery] string access_token, [FromQuery] string email)
+
+public async Task<IActionResult> Token()
 {
     try
     {
-        var handler = new JwtSecurityTokenHandler();
-        var jwtToken = handler.ReadJwtToken(access_token);
-
-        var propietarioEmail = jwtToken.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
-        if (propietarioEmail == null || propietarioEmail != email)
-        {
-            return BadRequest("Token inválido o email no coincide.");
-        }
-
+         var email = User.Identity.Name;
         var propietario = await contexto.Propietarios.FirstOrDefaultAsync(x => x.Email == email);
         if (propietario == null)
         {
